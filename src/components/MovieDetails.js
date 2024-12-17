@@ -1,9 +1,7 @@
 import { useState, useEffect, useContext } from 'react';
-import { Container, Row, Col, Button, Card, Form } from 'react-bootstrap';
+import { Container, Row, Col, Card } from 'react-bootstrap';
 import { useParams, useNavigate, Link } from 'react-router-dom';
-import { Notyf } from 'notyf';
 
-import MovieCard from './MovieCard';
 import UserContext from '../UserContext';
 
 export default function MovieDetails() {
