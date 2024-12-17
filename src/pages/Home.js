@@ -7,9 +7,8 @@ export default function Home() {
     return (
         <Row>
             <Col className="mt-5 pt-5 text-center mx-auto">
-                <h1>Welcome to Zuitt Workouts</h1>
-                <p>Your Workout Tracker!</p>
-                <Link className="btn btn-primary" to={"/login"}>Login to get Started</Link>
+                <h1>Welcome to our Movies Library</h1>
+                <Link className="btn btn-primary" to={"/login"}>View our Movies!</Link>
             </Col>
         </Row>
     )

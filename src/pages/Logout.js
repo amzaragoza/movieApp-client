@@ -11,8 +11,8 @@ export default function Logout() {
         unsetUser();
         
         setUser({
-            id: null//,
-            // isAdmin: null
+            id: null,
+            isAdmin: null
         })
 
     }, [])
