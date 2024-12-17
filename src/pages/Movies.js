@@ -1,4 +1,4 @@
-import { useState, useEffect, useContext } from 'react';
+import { useContext } from 'react';
 import MovieCard from '../components/MovieCard';
 import Dashboard from '../components/Dashboard';
 import UserContext from '../UserContext';
