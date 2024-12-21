@@ -57,10 +57,9 @@ export default function Login() {
         })
         .then(res => res.json())
         .then(data => {
-
             setUser({
               id: data.user._id,
-              isAdmin: data.isAdmin
+              isAdmin: data.user.isAdmin
             });
         })
 

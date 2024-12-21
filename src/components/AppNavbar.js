@@ -26,7 +26,6 @@ export default function AppNavbar() {
 								) : (
 									<>
 	                                    <Nav.Link as={NavLink} to="/movies" exact="true" className=" text-white">Movies</Nav.Link>
-	                                    <Nav.Link as={NavLink} to="/comments" exact="true" className=" text-white">Comments</Nav.Link>
 										<Nav.Link as={NavLink} to="/logout" exact="true" className=" text-white">Logout</Nav.Link>
 									</>
 								)
